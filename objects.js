@@ -1,7 +1,7 @@
-var playlist = {a: "z", b:"y", c:"x"}; 
+var playlist = {[a]: "z", [b]:"y", [c]:"x"}; 
 
-function updatePlaylist(playlist, artistName, songTitle){
-return playlist [artistName], [songTitle]
+function updatePlaylist(playlist, artistName, songTitle){ playlist.d = "w"
+return playlist
 }
 
 function removeFromPlaylist(playlist, artistName){
